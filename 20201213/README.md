@@ -1,6 +1,6 @@
 # モバイルハンズオン
 
-## インストールと動作確認
+## 事前準備
 
 ### React Native
 
@@ -11,6 +11,22 @@ React Nativeの開発環境を準備します。
 次の記事を見てExpoを使ってブラウザorスマホでアプリを動かす方法を確認してください。
 
 - [React Native Expo CLI で始めるクロスプラットフォーム開発 はじめの一歩編](https://www.cresco.co.jp/blog/entry/12928/)
+
+### Visual Studio Code
+
+#### インストール
+
+開発時に使用するエディタをインストールします。
+
+エディタは使い慣れたものなら何でもよいですが、何もインストールしていなければ、
+今回のハンズオンで使用するコードに対応できるVisual Studio Codeをインストールします。
+[公式サイト](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)の案内に沿って、インストールしてください。
+
+エディタが既に整っている場合は、この手順をスキップしてください。
+
+#### 動作確認
+
+Visual Studio Codeが起動することを確認してください。
 
 ### Docker(Docker Compose)
 
