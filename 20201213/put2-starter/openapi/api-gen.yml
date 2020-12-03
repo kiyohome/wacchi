@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  openapi-gen:
+    image: openapitools/openapi-generator-cli
+    volumes:
+      - ..:/app
+    command: generate -g typescript-fetch -i /app/openapi/openapi.yaml -o /app/backend/generated-rest-client --additional-properties supportsES6=true,typescriptThreePlus=true
